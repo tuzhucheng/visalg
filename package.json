@@ -5,13 +5,14 @@
   "private": true,
   "main": "server.js",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/tuzhucheng/glowing-adventure.git"
+    "type": "git",
+    "url": "https://github.com/tuzhucheng/glowing-adventure.git"
   },
   "author": "Michael Tu",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.8.4"
+    "express": "^4.8.4",
+    "jade": "^1.5.0"
   },
   "engines": {
     "node": "0.10.x"

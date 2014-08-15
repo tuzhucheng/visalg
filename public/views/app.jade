@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+    head
+        title Glowing Adventure
+        link(href="/libs/bootstrap/dist/css/bootstrap.min.css", rel="stylesheet")
+        link(href="/css/app.css", rel="stylesheet")
+    body
+        .navbar.navbar-inverse.navbar-fixed-top
+            .container-fluid
+                .navbar-header
+                    button(type="button", data-toggle="collapse", data-target=".navbar-collapse").navbar-toggle
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a(href="#").navbar-brand Glowing Adventure
+                .navbar-collapse.collapse
+                    ul.nav.navbar-nav.navbar-right
+                        li: a(href="#") Dashboard
+                        li: a(href="#") Help
+                    form.navbar-form.navbar-right
+                        input(type="text", placeholder="Search...").form-control
+
+        .container-fluid
+            .row
+                .col-sm-3.col-md-2.sidebar
+                    ul.nav.nav-sidebar
+                        li: a(href="#").active Overview
+                        li: a(href="#") Brute Force
+                        li: a(href="#") Knuth-Morris-Pratt
+                        li: a(href="#") Boyer-Moore
+        .col-sm-9.col-sm-offset-3.col-md-10.col-md-offset-2.main
+            h1.page-header Glowing Adventure

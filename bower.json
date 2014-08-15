@@ -1,0 +1,15 @@
+{
+  "name": "glowing-adventure",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tuzhucheng/glowing-adventure",
+  "authors": [
+    "Michael Tu <tuzhucheng@outlook.com>"
+  ],
+  "description": "Glowing Adventure is a web application that helps computer science students visualize algorithms.",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "angular": "~1.2.22"
+  }
+}
