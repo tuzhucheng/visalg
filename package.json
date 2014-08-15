@@ -1,0 +1,19 @@
+{
+  "name": "glowing-adventure",
+  "description": "Glowing Adventure is a web application that helps computer science students visualize algorithms.",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/tuzhucheng/glowing-adventure.git"
+  },
+  "author": "Michael Tu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.8.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
