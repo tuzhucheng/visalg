@@ -1,5 +1,5 @@
 doctype html
-html(lang="en")
+html(lang="en", ng-app="glowingAdventure")
     head
         title Glowing Adventure
         link(href="/libs/bootstrap/dist/css/bootstrap.min.css", rel="stylesheet")
@@ -25,9 +25,15 @@ html(lang="en")
             .row
                 .col-sm-3.col-md-2.sidebar
                     ul.nav.nav-sidebar
-                        li: a(href="#").active Overview
-                        li: a(href="#") Brute Force
-                        li: a(href="#") Knuth-Morris-Pratt
-                        li: a(href="#") Boyer-Moore
-        .col-sm-9.col-sm-offset-3.col-md-10.col-md-offset-2.main
+                        li: a(href="/").active Overview
+                        li: a(href="/brute-force") Brute Force
+                        li: a(href="/kmp") Knuth-Morris-Pratt
+                        li: a(href="/boyer-moore") Boyer-Moore
+        div(ng-view).col-sm-9.col-sm-offset-3.col-md-10.col-md-offset-2.main
             h1.page-header Glowing Adventure
+
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+        //-script(src="libs/bootstrap/dist/js/bootstrap.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular-route.js")
+        script(src="js/app.js")
