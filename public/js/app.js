@@ -32,10 +32,6 @@ appControllers.controller('mainController', function($scope, $location) {
 
 });
 
-appControllers.controller('bruteForceController', function($scope, $location) {
-
-});
-
 appControllers.controller('kmpController', function($scope, $location) {
 
 });

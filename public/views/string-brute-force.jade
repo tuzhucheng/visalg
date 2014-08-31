@@ -1,1 +1,11 @@
 h1 Brute force
+form(role="form")
+    .form-group
+        label(for="source-text") Text
+        input(type="text", placeholder="Enter the text to search from", ng-model="text").form-control#source-text
+    .form-group
+        label(for="pattern") Pattern
+        input(type="text", placeholder="Enter the pattern to search for", ng-model="pattern").form-control#pattern
+    .btn-toolbar.pull-right
+        button(type="submit").btn.btn-success Begin
+        button(type="reset").btn.btn-danger Reset
