@@ -1,12 +1,12 @@
 {
-  "name": "glowing-adventure",
-  "description": "Glowing Adventure is a web application that helps computer science students visualize algorithms.",
+  "name": "visalg",
+  "description": "Visalg is a web application that helps computer science students visualize algorithms.",
   "version": "0.0.1",
   "private": true,
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuzhucheng/glowing-adventure.git"
+    "url": "https://github.com/tuzhucheng/visalg.git"
   },
   "author": "Michael Tu",
   "license": "MIT",
